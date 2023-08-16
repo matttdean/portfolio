@@ -18,7 +18,7 @@ const websites = [
   },
   {
     name: "Contact Card",
-    url: "https://matttdean.com/portfolio",
+    url: "https://matttdean.github.io/contact-card/",
     description:
       "Search engine that is used for this thing that is here and it is a thing that is a thing and these are words that are being used to write all of this so it will fill up space",
     image: contactCard,
