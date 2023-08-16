@@ -2,26 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer utilities {
+    .play {
+      animation-play-state: running;
+    }
+ }
+
+@keyframes website {
+    from {transform: translateY(0)}
+    to {transform: translateY(-90%)}
+}
+@keyframes website-2 {
+    from {transform: translateY(0)}
+    to {transform: translateY(-25%)}
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+    --line-color: #e5e7eb;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.vertical-timeline::before {
+    border-radius: 20px
+}
+.dark .vertical-timeline-element-icon {
+    background: #1e2432!important;
+    box-shadow: 0 0 0 4px #414652;
+    color: #b1b3b8!important;
+
+}
+.borderBlack {
+    @apply border border-black/10;
+}
+
+.website-animation {
+    animation: alternate website 15s infinite linear;
+    animation-play-state: paused;
+}
+.website-animation-2 {
+    animation: alternate website-2 2s infinite linear;
+    animation-play-state: paused;
 }
