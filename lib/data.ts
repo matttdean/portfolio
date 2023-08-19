@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Health Union",
     location: "Remote",
     description:
-      "After years of leading the creative for multiple Health Union websites, I broke away from the editorial team and helped start the product team. Here I was able to work with various teams throughout the company to create interactive products that enriched our users while satisfying the needs of our clients. When building products, I was able to work closely with the tech team and grow as a developer through code reviews.",
+      "Here I was able to work with various teams throughout the company to create interactive products that enriched our users while satisfying the needs of our clients. When building products, I was able to work closely with the tech team and grow as a developer through code reviews.",
     icon: React.createElement(FaCodeBranch),
     date: "2016-2023",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "This Could be You",
     location: "Anywhere",
     description:
-      "I'm a designer & developer in Greenville, SC. I'm open to full-time opportunities.",
+      "I'm a Front-End Developer & Designer in Greenville, SC. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023+",
   },
