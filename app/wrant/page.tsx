@@ -70,7 +70,7 @@ export default function Wrant() {
           library for building user interfaces. To enhance performance and user
           experience, I leveraged Next.js, a framework that offers
           server-rendered React applications. The dynamic routing, server-side
-          rendering, and optimized build process provided by Next.js contribute
+          rendering, and optimized build process provided by Next.js help contribute
           to Wrant's snappy performance and seamless transitions.
         </p>
 
