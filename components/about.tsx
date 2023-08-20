@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { getLatestOnePieceChapter } from "@/actions/getOnePieceChapter";
+import { getLatestOnePieceChapter } from "@/api/getOnePieceChapter";
 
 export default function About() {
   const { ref } = useSectionInView("About", 1);
@@ -14,7 +14,6 @@ export default function About() {
     const getLatestOnePieceChapterFunc = async () => {
       const resp: any = await getLatestOnePieceChapter();
       setLatestChapter(resp.data.data[0].attributes.chapter);
-      console.log(resp.data.data[0].attributes.chapter);
     };
     getLatestOnePieceChapterFunc();
   }, []);
