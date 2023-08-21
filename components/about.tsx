@@ -4,7 +4,9 @@ import React, { useEffect, useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { getLatestOnePieceChapter } from "@/app/api/getOnePieceChapter";
+import axios from "axios";
+
+
 
 export default function About() {
   const { ref } = useSectionInView("About", 1);
@@ -12,7 +14,7 @@ export default function About() {
 
   useEffect(() => {
     const getLatestOnePieceChapterFunc = async () => {
-      const resp: any = await getLatestOnePieceChapter();
+      const resp: any = await axios.get('/api');
       setLatestChapter(resp.data.data[0].attributes.chapter);
     };
     getLatestOnePieceChapterFunc();
