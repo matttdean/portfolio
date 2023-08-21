@@ -32,13 +32,13 @@ export default function About() {
       <p>
         I am a front-end developer and designer in Greenville, SC. I enjoy using
         the latest technologies to create engaging experiences that inspire
-        users. I started my career as a designer, but my passion for building
+        users. I started my career as a designer, but my passihon for building
         projects and learning new things lead me to pursue developing. I have a
         wide range of interests and skills. Any given day you can find me
         illustrating, building applications, building a pc (or keyboard),
         playing guitar, or reading One Piece (I'm on chapter{" "} 
         <span className="bg-gray-800/60 text-white dark:bg-white/10 dark:text-gray-200 px-2 py-1 rounded-full">
-          325
+          330
         </span>{" "}
         /{" "}
         <span className="bg-red-500/80 px-2 py-1 rounded-full text-white dark:text-red-100 dark:bg-red-500/30">
