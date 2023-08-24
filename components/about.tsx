@@ -38,7 +38,7 @@ export default function About() {
         illustrating, building applications, building a pc (or keyboard),
         playing guitar, or reading One Piece (I'm on chapter{" "} 
         <span className="bg-gray-800/60 text-white dark:bg-white/10 dark:text-gray-200 px-2 py-1 rounded-full">
-          330
+          345
         </span>{" "}
         /{" "}
         <span className="bg-red-500/80 px-2 py-1 rounded-full text-white dark:text-red-100 dark:bg-red-500/30">

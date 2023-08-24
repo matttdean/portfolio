@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import wrantDark from "@/public/wrantDark.png";
 import tasker from "@/public/tasker.png";
 import websites from "@/public/websites.png";
+import gojo from "@/public/gojo-chatbot.png";
 
 export const links = [
   {
@@ -70,6 +71,23 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+
+  {
+    title: "Chat G(ojo)PT",
+    description:
+      "A chat bot that uses OpenAI's GPT-3.5 to generate responses to user input as Satoru Gojo from Jujutsu Kaisen.",
+    tags: ["React", "Next.js", "Tailwind", "GPT-3.5", "TypeScript"],
+    imageUrl: gojo,
+    link: "/gojo-chatbot",
+  },
+    {
+    title: "Tasker",
+    description:
+      "A todo app with drag and drop functionality and GPT-3.5 integration.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "GPT-3.5","Zustand"],
+    imageUrl: tasker,
+    link: "/tasker",
+  },
   {
     title: "wrant",
     description:
@@ -78,14 +96,7 @@ export const projectsData = [
     imageUrl: wrantDark,
     link: "/wrant",
   },
-  {
-    title: "Tasker",
-    description:
-      "A todo app with drag and drop functionality and GPT-3.5 integration.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "GPT-3.5","Zustand"],
-    imageUrl: tasker,
-    link: "/tasker",
-  },
+
   {
     title: "Websites",
     description:
